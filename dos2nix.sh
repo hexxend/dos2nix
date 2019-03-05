@@ -1,6 +1,7 @@
 #!/bin/bash
 # converts dos text files to unix style
 # hexxend
+# released under FreeBSD license
 
 if [[ $1 == "-h"  ||  $1 == "--help" ]]; then # check if the user is looking for help
     echo -e 'usage: dos2unix.sh infile outfile\n converts a text file with dos retrun newline to unix stule newline'
